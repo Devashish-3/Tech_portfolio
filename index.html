@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Personal Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">Devashish</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#skill" class="nav-item nav-link">Skills</a>
+                
+            </div>
+            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h1 class="text-primary fw-bold m-0">Devashish</h1>
+            </a>
+            <div class="navbar-nav me-auto py-0">
+                <a href="#projects" class="nav-item nav-link">Project</a>
+                <a href="#project" class="nav-item nav-link">Certification</a>
+                
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h3 class="text-primary mb-3">I'm</h3>
+                    <h1 class="display-3 mb-3">Devashish Sambhare</h1>
+                    <h2 class="typed-text-output d-inline"></h2>
+                    <div class="typed-text d-none">Electronics Engineer, Embedded System Engineer </div>
+                    <div class="d-flex align-items-center pt-5">
+                        <a href="Devashish Resume Tech.pdf" class="btn btn-primary py-3 px-4 me-5">Download CV</a>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/Devashish_Sambhare_-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+<!-- About Start -->
+<div class="container-xxl py-6" id="about">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="section-title mb-4 text-center">
+                    <h2 class="fw-bold text-primary mb-3">About Me</h2>
+                    <hr class="w-25 mx-auto border-primary border-2 opacity-100 mb-4">
+                </div>
+                <p class="mb-4">
+                    I am a passionate Electronics & Communication Engineering graduate (B.Tech, 2024) with a solid foundation in embedded systems, IoT, circuit design, and hardware prototyping. Over the past year, I’ve focused on upskilling through national-level exams like GATE ECE and BEL PE (ECE), while simultaneously strengthening my practical knowledge through hands-on projects and technical certifications.
+                </p>
+                <p class="mb-4">
+                    My work includes developing a GSM-GPS-based Vehicle Security System, a Weather Monitoring System using ESP32, and a Home Automation setup via ESP8266. I have also completed certified training in Embedded Systems, IoT, and PCB Design, and possess basic working knowledge of Embedded C and Python.
+                </p>
+                <p class="mb-0 mt-5">
+                    With a keen interest in technology-driven roles, I am open to contributing across all domains of electronics — including embedded development, testing, hardware support, maintenance, or system design. I believe in continuous learning, adaptability, and innovation-driven problem-solving, and I’m eager to bring these values to a dynamic professional environment.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+
+
+
+ <!-- Expertise Start -->
+<div class="container-xxl py-6 pb-5" id="skill">
+    <div class="container">
+        <div class="row g-5 align-items-start">
+            <!-- Skills Column -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <h2 class="fw-bold text-primary mb-4">Skills </h2>
+                <h4 class="mb-4">Technical Proficiency</h4>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="mb-4">
+                            <h6 class="fw-semibold">Embedded Systems</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h6 class="fw-semibold">PCB Design (EasyEDA)</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h6 class="fw-semibold">Electronic Devices & Circuits</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="mb-4">
+                            <h6 class="fw-semibold">Internet of Things (IoT)</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h6 class="fw-semibold">Arduino IDE</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-dark" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h6 class="fw-semibold">Embedded C & Python (Basic)</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabs Column -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <ul class="nav nav-pills nav-justified border border-primary rounded mb-4">
+                    <li class="nav-item">
+                        <button class="nav-link fs-5 rounded-0 rounded-start" data-bs-toggle="pill" data-bs-target="#tab-highlights">Highlights</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link fs-5 active rounded-0 rounded-end" data-bs-toggle="pill" data-bs-target="#tab-education">Education</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <!-- Education Tab -->
+                    <div class="tab-pane fade show active" id="tab-education">
+                        <div class="bg-light rounded p-4">
+                            <div class="row gy-4">
+                                <div class="col-sm-7">
+                                    <h5 class="fw-bold mb-1">B.Tech – Electronics & Communication</h5>
+                                    <p class="mb-0 text-muted">Acropolis Institute of Technology & Research</p>
+                                    <p class="text-primary mb-1">2020 – 2024</p>
+                                </div>
+                                <div class="col-sm-5">
+                                    <h5 class="fw-bold">CGPA</h5>
+                                    <p class="mb-0 text-muted">8.27 / 10</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Highlights Tab -->
+                    <div class="tab-pane fade" id="tab-highlights">
+                        <div class="bg-light rounded p-4">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-3">
+                                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                    Appeared in GATE ECE 2024 – missed cutoff by 1.25 marks.
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                    Appeared in BEL PE (ECE) 2025 – missed final selection by 8 marks.
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                    Appeared in RBI Grade B 2024.
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                    Learned basic Python for logic building and automation.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+<!-- Expertise End -->
+
+
+
+<!-- Projects Start -->
+<div class="container-xxl py-6 pt-5" id="projects">
+    <div class="container">
+        <!-- Section Heading -->
+        <div class="row mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-12">
+                <h2 class="fw-bold text-primary mb-3">Projects</h2>
+                <hr class="w-25 border-primary border-2 opacity-100">
+            </div>
+        </div>
+
+        <!-- Project Cards -->
+        <div class="row g-4 wow fadeInUp" data-wow-delay="0.2s">
+            
+            <!-- Project 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="bg-light rounded shadow-sm p-4 h-100">
+                    <h5 class="fw-bold mb-2">Vehicle Security System</h5>
+                    <p class="mb-1"><strong>Role:</strong> Developer</p>
+                    <p class="mb-1"><strong>Duration:</strong> 10 Oct – 30 Oct 2023</p>
+                    <p class="mb-3">Embedded system using GSM, GPS (Neo6M), and Arduino to secure and track vehicles in real time.</p>
+                    <a class="btn btn-sm btn-outline-primary" href="img/vss1.jpg" data-lightbox="vss" data-title="Vehicle Security System">
+                        Images
+                    </a>
+                    <!-- Hidden images for gallery -->
+                    <a href="img/vss2.jpg" class="d-none" data-lightbox="vss" data-title="Vehicle Security System"></a>
+                    <a href="img/vss3.jpg" class="d-none" data-lightbox="vss" data-title="Vehicle Security System"></a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="bg-light rounded shadow-sm p-4 h-100">
+                    <h5 class="fw-bold mb-2">Weather Monitoring System</h5>
+                    <p class="mb-1"><strong>Role:</strong> Developer</p>
+                    <p class="mb-1"><strong>Duration:</strong> 17 Jul – 21 Jul 2023</p>
+                    <p class="mb-3">Designed using ESP32 and DHT11 to monitor temperature & humidity, with real-time serial feedback.</p>
+                    <a class="btn btn-sm btn-outline-primary" href="img/weather1.jpeg" data-lightbox="weather" data-title="Weather Monitoring System">
+                        Images
+                    </a>
+                    <a href="img/weather2.jpeg" class="d-none" data-lightbox="weather" data-title="Weather Monitoring System"></a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="bg-light rounded shadow-sm p-4 h-100">
+                    <h5 class="fw-bold mb-2">Home Automation using ESP8266</h5>
+                    <p class="mb-1"><strong>Role:</strong> PCB & Hardware</p>
+                    <p class="mb-1"><strong>Duration:</strong> 15 Feb – 15 Mar 2023</p>
+                    <p class="mb-3">Controlled appliances via Wi-Fi and IR remote using NodeMCU and relay-based switching circuit.</p>
+                    <a class="btn btn-sm btn-outline-primary" href="img/home1.jpeg" data-lightbox="home" data-title="Home Automation">
+                        Images
+                    </a>
+                    <a href="img/home2.jpeg" class="d-none" data-lightbox="home" data-title="Home Automation"></a>
+                    <!-- <a href="img/home3.jpeg" class="d-none" data-lightbox="home" data-title="Home Automation"></a> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Projects End -->
+
+
+
+  
+
+
+  <!-- Certifications Start -->
+<div class="container-xxl py-6 pt-5" id="project">
+    <div class="container">
+        <!-- Section Title -->
+        <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-lg-6">
+                <h2 class="fw-bold text-primary mb-0">Certifications</h2>
+                <hr class="w-25 mt-2 border-primary border-2 opacity-100">
+            </div>
+        </div>
+
+        <!-- Certifications Grid -->
+        <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.2s">
+            <!-- Certificate 1 -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-img position-relative rounded shadow-sm overflow-hidden">
+                    <img class="img-fluid w-100" src="img/certificate1.jpg" alt="Certificate 1">
+                    <div class="portfolio-btn position-absolute top-50 start-50 translate-middle d-flex">
+                        <a class="btn btn-lg-square btn-outline-light border-0 me-2" href="img/certificate1.jpg" data-lightbox="portfolio">
+                            <i class="fa fa-eye"></i>
+                        </a>
+                        <!-- Optional: external link -->
+                        <!-- <a class="btn btn-lg-square btn-outline-light border-0" href="#">
+                            <i class="fa fa-link"></i>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certificate 2 -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-img position-relative rounded shadow-sm overflow-hidden">
+                    <img class="img-fluid w-100" src="img/certificate2.jpg" alt="Certificate 2">
+                    <div class="portfolio-btn position-absolute top-50 start-50 translate-middle d-flex">
+                        <a class="btn btn-lg-square btn-outline-light border-0 me-2" href="img/certificate2.jpg" data-lightbox="portfolio">
+                            <i class="fa fa-eye"></i>
+                        </a>
+                        <a class="btn btn-lg-square btn-outline-light border-0" href="https://courses.edx.org/certificates/fd544f8a4ca9456f83643902413696c9" target="_blank">
+                            <i class="fa fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certificate 3 -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-img position-relative rounded shadow-sm overflow-hidden">
+                    <img class="img-fluid w-100" src="img/certificate3.jpeg" alt="Certificate 3">
+                    <div class="portfolio-btn position-absolute top-50 start-50 translate-middle d-flex">
+                        <a class="btn btn-lg-square btn-outline-light border-0 me-2" href="img/certificate3.jpeg" data-lightbox="portfolio">
+                            <i class="fa fa-eye"></i>
+                        </a>
+                        <a class="btn btn-lg-square btn-outline-light border-0" href="https://www.coursera.org/account/accomplishments/verify/NHFTYCND5H2A" target="_blank">
+                            <i class="fa fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Certifications End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Let's Work Together</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2">My address:</p>
+                    <h3 class="fw-bold">Dewas (MP)</h3>
+                    <hr class="w-100">
+                   
+                    <hr class="w-100">
+                    <p class="mb-2">Mail me:</p>
+                    <h3 class="fw-bold">devashish2975@gmail.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Follow me:</p>
+                    <div class="d-flex pt-2">
+               
+                        <a class="btn btn-square btn-primary me-2" href="https://www.linkedin.com/in/devashish-sambhare/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+  
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom text-secondary" href="#">Devashish Sambhare</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

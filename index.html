@@ -333,6 +333,7 @@
 <!-- Projects Start -->
 <div class="container-xxl py-6 pt-5" id="Projects">
     <div class="container">
+
         <!-- Section Heading -->
         <div class="row mb-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="col-12">
@@ -344,144 +345,362 @@
         <!-- Project Cards -->
         <div class="row g-4 wow fadeInUp" data-wow-delay="0.2s">
 
-            <!-- Project 1 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="bg-light rounded shadow-sm p-4 h-100 d-flex flex-column justify-content-between">
-                    <div>
-                        <h5 class="fw-bold mb-2">Vehicle Security System</h5>
-                        <p class="mb-1"><strong>Role:</strong> Developer</p>
-                        <p class="mb-1"><strong>Duration:</strong> Mar 24 – Apr 24</p>
-                        <p class="mb-3">Embedded system using GSM, GPS (Neo6M), and Arduino to secure and track vehicles in real time.
-                                        Developed a real-time monitoring and alert system for vehicle security using GPS and GSM modules. 
-                                        Demonstrates system integration, real-time data flow, and practical problem-solving.
-                        </p>
-                    </div>
-                    <div class="mt-auto">
-                        <a class="btn btn-sm btn-outline-primary mt-2" href="img/vss1.jpg" data-lightbox="vss" data-title="Vehicle Security System">Images</a>
-                        <a href="img/vss2.jpg" class="d-none" data-lightbox="vss" data-title="Vehicle Security System"></a>
-                    </div>
+        <!-- Project 1 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="bg-light rounded shadow-sm p-4 h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <h5 class="fw-bold mb-2">Vehicle Security System</h5>
+                    <p class="mb-1"><strong>Role:</strong> Developer</p>
+                    <p class="mb-1"><strong>Duration:</strong> Mar 24 – Apr 24</p>
+                </div>
+
+                <div class="mt-auto">
+                    <a class="btn btn-sm btn-outline-primary mt-2"
+                       href="img/vss1.jpg"
+                       data-lightbox="vss">
+                        Images
+                    </a>
+
+                    <a href="img/vss2.jpg"
+                       class="d-none"
+                       data-lightbox="vss"></a>
+
+                    <button class="btn btn-sm btn-outline-secondary mt-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#vssModal">
+                        About
+                    </button>
                 </div>
             </div>
+        </div>
 
-            <!-- Project 2 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="bg-light rounded shadow-sm p-4 h-100 d-flex flex-column justify-content-between">
-                    <div>
-                        <h5 class="fw-bold mb-2">Weather Monitoring System</h5>
-                        <p class="mb-1"><strong>Role:</strong> Developer</p>
-                        <p class="mb-1"><strong>Duration:</strong> Jul 23 – Aug 23</p>
-                        <p class="mb-3">Designed using ESP32 and DHT11 to monitor temperature & humidity, with real-time serial feedback.</p>
-                    </div>
-                    <div class="mt-auto">
-                        <a class="btn btn-sm btn-outline-primary mt-2" href="img/weather1.jpeg" data-lightbox="weather" data-title="Weather Monitoring System">Images</a>
-                        <a href="img/weather2.jpeg" class="d-none" data-lightbox="weather" data-title="Weather Monitoring System"></a>
-                        <a href="img/weather3.jpeg" class="d-none" data-lightbox="weather" data-title="Weather Monitoring System"></a>
-                    </div>
+        <!-- Project 2 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="bg-light rounded shadow-sm p-4 h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <h5 class="fw-bold mb-2">Weather Monitoring System</h5>
+                    <p class="mb-1"><strong>Role:</strong> Developer</p>
+                    <p class="mb-1"><strong>Duration:</strong> Jul 23 – Aug 23</p>
+                </div>
+
+                <div class="mt-auto">
+                    <a class="btn btn-sm btn-outline-primary mt-2"
+                       href="img/weather1.jpeg"
+                       data-lightbox="weather">
+                        Images
+                    </a>
+
+                    <a href="img/weather2.jpeg" class="d-none" data-lightbox="weather"></a>
+                    <a href="img/weather3.jpeg" class="d-none" data-lightbox="weather"></a>
+
+                    <button class="btn btn-sm btn-outline-secondary mt-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#weatherModal">
+                        About
+                    </button>
                 </div>
             </div>
+        </div>
 
-            <!-- Project 3 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="bg-light rounded shadow-sm p-4 h-100 d-flex flex-column justify-content-between">
-                    <div>
-                        <h5 class="fw-bold mb-2">Home Automation using ESP8266</h5>
-                        <p class="mb-1"><strong>Role:</strong> PCB & Hardware</p>
-                        <p class="mb-1"><strong>Duration:</strong> Feb 23 – Mar 23</p>
-                        <p class="mb-3">Controlled appliances via Wi-Fi and IR remote using NodeMCU and relay-based switching circuit.</p>
-                    </div>
-                    <div class="mt-auto">
-                        <a class="btn btn-sm btn-outline-primary mt-2" href="img/home1.jpeg" data-lightbox="home" data-title="Home Automation">Images</a>
-                        <a href="img/home2.jpeg" class="d-none" data-lightbox="home" data-title="Home Automation"></a>
-                    </div>
+        <!-- Project 3 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="bg-light rounded shadow-sm p-4 h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <h5 class="fw-bold mb-2">Home Automation using ESP8266</h5>
+                    <p class="mb-1"><strong>Role:</strong> PCB & Hardware</p>
+                    <p class="mb-1"><strong>Duration:</strong> Feb 23 – Mar 23</p>
+                </div>
+
+                <div class="mt-auto">
+                    <a class="btn btn-sm btn-outline-primary mt-2"
+                       href="img/home1.jpeg"
+                       data-lightbox="home">
+                        Images
+                    </a>
+
+                    <a href="img/home2.jpeg" class="d-none" data-lightbox="home"></a>
+
+                    <button class="btn btn-sm btn-outline-secondary mt-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#homeModal">
+                        About
+                    </button>
                 </div>
             </div>
+        </div>
 
-            <!-- Project 4 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="bg-light rounded shadow-sm p-4 h-100 d-flex flex-column justify-content-between">
-                    <div>
-                        <h5 class="fw-bold mb-2">Hydroponic System using ESP32</h5>
-                        <p class="mb-1"><strong>Role:</strong> Developer</p>
-                        <p class="mb-1"><strong>Duration:</strong> Jan 2024 – Mar 2024</p>
-                        <p class="mb-3">IoT-based hydroponic system using ESP32, sensors (pH, EC, potassium, temp, water level), and ThingSpeak for monitoring and automated control.</p>
-                    </div>
-                    <div class="mt-auto">
-                        <a class="btn btn-sm btn-outline-primary mt-2" href="img/hydro1.png" data-lightbox="hydro" data-title="Hydroponic System">Images</a>
-                        <a href="img/hydro2.png" class="d-none" data-lightbox="hydro" data-title="Hydroponic System"></a>
-                        <a href="img/hydro3.png" class="d-none" data-lightbox="hydro" data-title="Hydroponic System"></a>
-                        <a href="img/hydro4.jpg" class="d-none" data-lightbox="hydro" data-title="Hydroponic System"></a>
-                    </div>
+        <!-- Project 4 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="bg-light rounded shadow-sm p-4 h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <h5 class="fw-bold mb-2">Hydroponic System using ESP32</h5>
+                    <p class="mb-1"><strong>Role:</strong> Developer</p>
+                    <p class="mb-1"><strong>Duration:</strong> Jan 2024 – Mar 2024</p>
+                </div>
+
+                <div class="mt-auto">
+                    <a class="btn btn-sm btn-outline-primary mt-2"
+                       href="img/hydro1.png"
+                       data-lightbox="hydro">
+                        Images
+                    </a>
+
+                    <a href="img/hydro2.png" class="d-none" data-lightbox="hydro"></a>
+                    <a href="img/hydro3.png" class="d-none" data-lightbox="hydro"></a>
+                    <a href="img/hydro4.jpg" class="d-none" data-lightbox="hydro"></a>
+
+                    <button class="btn btn-sm btn-outline-secondary mt-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#hydroModal">
+                        About
+                    </button>
                 </div>
             </div>
+        </div>
 
-            <!-- Project 5 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="bg-light rounded shadow-sm p-4 h-100 d-flex flex-column justify-content-between">
-                    <div>
-                        <h5 class="fw-bold mb-2">PDT – Price Difference Trading (Simulation Tool)</h5>
-                        <p class="mb-1"><strong>Role:</strong> Developer (AI-assisted full-stack development)</p>
-                        <p class="mb-1"><strong>Duration:</strong> Feb 2026 – May 2026</p>
-                        <p class="mb-3">
-                            Developed and deployed a full-stack trading simulation platform using React, Node.js, Express, and MongoDB Atlas.
+        <!-- Project 5 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="bg-light rounded shadow-sm p-4 h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <h5 class="fw-bold mb-2">PDT – Price Difference Trading</h5>
+                    <p class="mb-1"><strong>Role:</strong> Developer (AI-assisted full-stack development)</p>
+                    <p class="mb-1"><strong>Duration:</strong> Feb 2026 – May 2026</p>
+                </div>
 
-Implemented trade execution workflows, REST APIs, cloud database integration, and dynamic frontend-backend communication using environment variables.
+                <div class="mt-auto">
+                    <a class="btn btn-sm btn-outline-primary mt-2"
+                       href="https://pdt-simulation.vercel.app/"
+                       target="_blank">
+                        Live Demo
+                    </a>
 
-Deployed production-ready frontend and backend using Vercel and Render with live public access and database persistence.
-
-Handled real-world deployment challenges including MongoDB DNS/SRV connection issues, environment configuration, GitHub integration, and production debugging.
-                        </p>
-                    </div>
-                    <div class="mt-auto">
-                        <a class="btn btn-sm btn-outline-primary mt-2" 
-                           href="https://pdt-simulation.vercel.app/" 
-                           target="_blank">
-                           Live Demo
-                        </a>
-                    </div>
+                    <button class="btn btn-sm btn-outline-secondary mt-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#pdtModal">
+                        About
+                    </button>
                 </div>
             </div>
-            
-            <!-- Project 6 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="bg-light rounded shadow-sm p-4 h-100 d-flex flex-column justify-content-between">
-        
-                    <div>
-                        <h5 class="fw-bold mb-2">Inventory & Sales Tracking System</h5>
-            
-                        <p class="mb-1"><strong>Role:</strong> Developer</p>
-                        <p class="mb-1"><strong>Duration:</strong> Feb 26 – Ongoing</p>
-            
-                        <p class="mb-3">
-                            Built a system to manage inventory, track sales, and generate basic reports. 
-                            Demonstrates data handling and real-world business workflow understanding.
-                        </p>
+        </div>
 
-                        <!-- Optional helper text -->
-                        <p class="text-muted small mb-2">
-                            Live demo of system functionality
-                        </p>
-                    </div>
 
-                    <div class="mt-auto">
-                        <a class="btn btn-sm btn-outline-primary mt-2"
-                           href="https://www.youtube.com/watch?v=zGwvOhZCXJw"
-                           target="_blank">
-                           ▶ Watch Demo
-                        </a>
-                    </div>
+        <!-- Project 6 -->
+<div class="col-lg-3 col-md-6">
+    <div class="bg-light rounded shadow-sm p-4 h-100 d-flex flex-column justify-content-between">
+        <div>
+            <h5 class="fw-bold mb-2">RideCompare India – Full-Stack Ride Comparison Prototype</h5>
+
+            <p class="mb-1">
+                <strong>Role:</strong> Developer (AI-assisted full-stack development)
+            </p>
+
+            <p class="mb-1">
+                <strong>Duration:</strong> May 2026 – June 2026
+            </p>
+        </div>
+
+        <div class="mt-auto">
+            <a class="btn btn-sm btn-outline-primary mt-2"
+               href="https://ride-compare-india.vercel.app/"
+               target="_blank">
+                Live Demo
+            </a>
+
+            <button class="btn btn-sm btn-outline-secondary mt-2"
+                    data-bs-toggle="modal"
+                    data-bs-target="#rideCompareModal">
+                About
+            </button>
+        </div>
+    </div>
+</div>
+
+        <!-- Project 7 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="bg-light rounded shadow-sm p-4 h-100 d-flex flex-column justify-content-between">
+                <div>
+                    <h5 class="fw-bold mb-2">Inventory & Sales Tracking System</h5>
+                    <p class="mb-1"><strong>Role:</strong> Developer</p>
+                    <p class="mb-1"><strong>Duration:</strong> Feb 26 – Ongoing</p>
                 </div>
+
+                <div class="mt-auto">
+                    <a class="btn btn-sm btn-outline-primary mt-2"
+                       href="https://www.youtube.com/watch?v=zGwvOhZCXJw"
+                       target="_blank">
+                        ▶ Watch Demo
+                    </a>
+
+                    <button class="btn btn-sm btn-outline-secondary mt-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#inventoryModal">
+                        About
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        </div> <!-- row -->
+    </div> <!-- container -->
+</div> <!-- container-xxl -->
+
+<!-- PROJECT MODALS -->
+
+<!-- Vehicle Security System -->
+
+<div class="modal fade" id="vssModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Vehicle Security System</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                Embedded system using GSM, GPS (Neo6M), and Arduino to secure and track vehicles in real time.
+                Developed a real-time monitoring and alert system for vehicle security using GPS and GSM modules.
+                Demonstrates system integration, real-time data flow, and practical problem-solving.
             </div>
         </div>
     </div>
 </div>
+
+<!-- Weather Monitoring System -->
+
+<div class="modal fade" id="weatherModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Weather Monitoring System</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                Designed using ESP32 and DHT11 to monitor temperature and humidity with real-time serial feedback and sensor data acquisition.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Home Automation -->
+
+<div class="modal fade" id="homeModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Home Automation using ESP8266</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                Controlled household appliances via Wi-Fi and IR remote using NodeMCU and relay-based switching circuits.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Hydroponic -->
+
+<div class="modal fade" id="hydroModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Hydroponic System using ESP32</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                IoT-based hydroponic system using ESP32, pH, EC, potassium, temperature and water-level sensors with ThingSpeak monitoring and automated control.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PDT -->
+
+<div class="modal fade" id="pdtModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">PDT – Price Difference Trading</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                Developed and deployed a full-stack trading simulation platform using React, Node.js, Express and MongoDB Atlas.
+                Implemented REST APIs, trade workflows, cloud database integration, deployment pipelines, and production debugging.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- RideCompare India -->
+
+<div class="modal fade" id="rideCompareModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    RideCompare India – Full-Stack Ride Comparison Prototype
+                </h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                </button>
+            </div>
+
+            <div class="modal-body">
+
+                <p>
+                    RideCompare India is a full-stack ride comparison prototype
+                    designed to help users compare ride options, estimated prices,
+                    travel time, and service details from different ride providers
+                    through a single platform.
+                </p>
+
+                <p>
+                    Developed a responsive web application with a modern frontend
+                    interface, backend APIs, and deployment workflow.
+                    The project demonstrates full-stack development practices,
+                    API integration, user-focused design, and real-world product
+                    development approach.
+                </p>
+
+                <p>
+                    <strong>Technologies:</strong>
+                    React, Node.js, Express, MongoDB, REST APIs, Vercel Deployment
+                </p>
+
+                <p>
+                    <strong>Role:</strong>
+                    Developer (AI-assisted full-stack development)
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Inventory -->
+
+<div class="modal fade" id="inventoryModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Inventory & Sales Tracking System</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                Built a system to manage inventory, track sales, and generate reports. Demonstrates data handling, reporting logic, and real-world business workflow understanding.
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Projects End -->
 
+    
 
-
-  
-
-
-  <!-- Certifications Start -->
+<!-- Certifications Start -->
 <div class="container-xxl py-6 pt-5" id="Certifications">
     <div class="container">
         <!-- Section Title -->
